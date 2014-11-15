@@ -8,4 +8,5 @@ POSTCODE="http://www.singpost.com.sg/postcode-finder"
 curl -s --data "base_url_=http://www.singpost.com.sg/&BuildingNo=$BUILDING&StreetName=$STREETNAME&option=com_sp_service&controller=postalcode&task=postalcode&Itemid=377" $POSTCODE \
  | grep '<b><span class="link">' \
  | sed 's/$/\n/' \
- | tr -dc 0-9 && echo
+ | tr -dc 0-9 \
+ | head -c 6 && echo
