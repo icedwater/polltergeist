@@ -1,0 +1,45 @@
+#map {
+    width: 886px;
+    height: 490px;
+    background-image: url('media/BlankMap.png');
+}
+
+.floatover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+    
+.member {
+    position: absolute;
+    top: -10em;
+    border: 1px solid black;
+    width: 110px;
+    height: 177px;
+    float: left;
+    margin-right: 33px;
+    z-index: 5;
+}
+
+.selected {
+    border-top: 6px solid red;
+    border-bottom: 2px solid red;
+}
+
+#baey {
+    background-image: url('media/baey.png');
+}
+
+#irene {
+    background-image: url('media/Irene.png');
+}
+
+#masagos {
+    background-image: url('media/masagos.png');
+}
+
+#mah {
+    background-image: url('media/mah.png');
+}
+
+#heng {
+    background-image: url('media/heng.png');
+}
