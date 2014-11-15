@@ -28,3 +28,7 @@ and done, and where to vote.
   * locations
   * registration reminder
 
+## Resources
+
+  - The main [Elections Department](http://www.elections.gov.sg/) website
+  - This is the base function we are building on: [Who's My MP](http://www.parliament.gov.sg/whos-my-mp#)
