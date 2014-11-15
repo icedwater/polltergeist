@@ -1,9 +1,11 @@
 #! /usr/bin/env bash
 #
 
-BUILDING=`echo $@ | cut -d' ' -f1`
-STREETNAME=`echo $2 | tr ' ' '+'`
+BUILDING=`echo $@ | sed 's/Blk //; s/Block //;' | cut -d' ' -f1`
+STREETNAME=`shift && echo $@ | sed "s/${BUILDING} //;" | tr ' ' '+'`
 POSTCODE="http://www.singpost.com.sg/postcode-finder"
+
+# echo $BUILDING and then $STREETNAME
 
 curl -s --data "base_url_=http://www.singpost.com.sg/&BuildingNo=$BUILDING&StreetName=$STREETNAME&option=com_sp_service&controller=postalcode&task=postalcode&Itemid=377" $POSTCODE \
  | grep '<b><span class="link">' \
