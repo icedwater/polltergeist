@@ -4,9 +4,31 @@
     background-image: url('media/BlankMap.png');
 }
 
+p
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+
+}
+
 .floatover {
     background-color: rgba(255, 255, 255, 0.7);
 }
+
+h1
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 40px;
+}
+
+h2
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+}
+
+
     
 .member {
     position: relative;
@@ -67,4 +89,18 @@
 
 #heng {
     background-image: url('media/heng.png');
+}
+
+body
+{
+	padding: 22px;
+	width: 886px;	
+	margin: 0 auto;
+
+}
+
+#span1
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
 }
