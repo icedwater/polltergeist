@@ -1,16 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <title>Operation MP Watch</title>
+    <title>Polltergeist v0.0.2</title>
     <link rel = "favicon" href = "media/ghost.ico" />
     <link rel = "stylesheet" href = "style.css" />
 </head>
 <body>
 
-   <h2>
-    <h1>
-    	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDSvUw9ttw-5Cf-21JIUfRDUIIInr8StuY&sensor=false"></script>
-    	<script type = "text/javascript" language = "JavaScript">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDSvUw9ttw-5Cf-21JIUfRDUIIInr8StuY&sensor=false"></script>
+    <script type = "text/javascript" language = "JavaScript">
         <!--
         var map;
         var marker;
@@ -31,14 +29,13 @@
         speechInput.addEventListener("keypress", function() {if (event.keyCode == 13) connection.write();});
         //-->
     </script>
-Operation MP Watch  </h1>
-		<p>Where do you live? We'll help you track your elected representatives, as well as their opponents, to help you figure out how you want to vote.</p>
-		<span id="span1">What is your address?
-		</span>
-<form id = "findmp" action = "index.php" method = "post">
-    <input id = "address" name = "address" size = "30" type = "text">
-        <input type = "submit" id = "track" value = "Track Them">
-</form>
+
+    <h1>Polltergeist v0.0.2</h1>
+    <p>What is your address?</p>
+    <form id = "findmp" action = "index.php" method = "post">
+        <input id = "address" name = "address" size = "30" type = "text"></input>
+        <input type = "submit" id = "track" value = "Track Them"></input>
+    </form>
 
 <?php
     if isset($_POST['address']) {
@@ -77,7 +74,7 @@ Operation MP Watch  </h1>
     </div>
     <div class = "stfeed">
         <p><a href = 'http://www.straitstimes.com/premium/singapore/story/ebola-isis-among-topics-parliament-20141101' title = 'THE twin threats of the deadly Ebola outbreak and militant group Islamic State in Iraq and Syria (ISIS) will be discussed in Parliament when it sits on Monday.'>Ebola, ISIS among topics for Parliament</a> by Walter Sim (2014-11-01T00:38:03)</p>
-        <p><a href = 'http://www.straitstimes.com/premium/singapore/story/artists-beneficiaries-share-stage-charity-extravaganza-20141016' title = 'FOR the first time at the President's Star Charity, artists will be performing side by with beneficiaries this year.'>Artists, beneficiaries to share stage in charity extravaganza</a> by Kash Cheong (2014-10-16T01:22:57)</p>
+        <p><a href = 'http://www.straitstimes.com/premium/singapore/story/artists-beneficiaries-share-stage-charity-extravaganza-20141016' title = 'FOR the first time at the President's Star Charity, artists will be performing side by side with beneficiaries this year.'>Artists, beneficiaries to share stage in charity extravaganza</a> by Kash Cheong (2014-10-16T01:22:57)</p>
         <p><a href = 'http://www.straitstimes.com/news/singapore/more-singapore-stories/story/theatre-practitioner-sculptor-and-poet-conferred-years-c' title = 'A trio of veteran artists, from the fields of English-language theatre, sculpture and Tamil poetry, will receive the Cultural Medallion on Thursday.'>Theatre practitioner, sculptor and poet conferred this year's Cultural Medallion</a> by Lisabel Ting (2014-10-15T12:01:38)</p>
         <p><a href = 'http://www.straitstimes.com/premium/top-the-news/story/its-beginning-look-lot-christmas-20141114' title = 'SINGAPORE'S iconic shopping belt will burst into colour this holiday season, with multi-hued Christmas trees and glittering blue snowflakes lining Orchard Road at the annual light-up.'>It's beginning to look a lot like Christmas</a> by Melissa Lin (2014-11-14T00:49:24)</p>
         <p><a href = 'http://www.straitstimes.com/premium/top-the-news/story/pm-lee-confident-tpp-can-be-done-early-2015-20141110' title = 'PRIME Minister Lee Hsien Loong has expressed confidence that the US-led Trans-Pacific Partnership (TPP) trade deal can be completed by early next year, as media reports said it is set to miss its year- end deadline.'>PM Lee confident TPP can be done by early 2015</a> by Rachel Chang In Beijing (2014-11-10T01:22:41)</p>
