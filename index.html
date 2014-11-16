@@ -38,8 +38,11 @@
     </form>
 
 <?php
-    $address = $_POST['address'];
-    echo "This is the postal code we got: " . exec('./postal $address');
+    if isset($_POST['address']) {
+        $address = $_POST['address'];
+    }
+    echo "Searching postal code for " . $address . "<br/>";
+    echo "This is the postal code we got: " . exec('./postal $address') . "<br/>;
 ?>
     <div id = "map" style = "width: 886px; height: 490px; background-image: url('media/BlankMap.png')">
     </div>
@@ -52,33 +55,35 @@
 
 <div class = "floatover updates">
     <div class = "twitter">
-    </div>
+        <a class="twitter-timeline" href="https://twitter.com/YamKeng" data-widget-id="533573553442926594" width="292" height="470">Tweets by @YamKeng</a> 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+            </div>
     <div class = "facebook">
+    Facebook stuff goes here.
     </div>
     <div class = "stfeed">
+        <p><a href = 'http://www.straitstimes.com/premium/singapore/story/ebola-isis-among-topics-parliament-20141101' title = 'THE twin threats of the deadly Ebola outbreak and militant group Islamic State in Iraq and Syria (ISIS) will be discussed in Parliament when it sits on Monday.'>Ebola, ISIS among topics for Parliament</a> by Walter Sim (2014-11-01T00:38:03)</p>
+        <p><a href = 'http://www.straitstimes.com/premium/singapore/story/artists-beneficiaries-share-stage-charity-extravaganza-20141016' title = 'FOR the first time at the President's Star Charity, artists will be performing side by side with beneficiaries this year.'>Artists, beneficiaries to share stage in charity extravaganza</a> by Kash Cheong (2014-10-16T01:22:57)</p>
+        <p><a href = 'http://www.straitstimes.com/news/singapore/more-singapore-stories/story/theatre-practitioner-sculptor-and-poet-conferred-years-c' title = 'A trio of veteran artists, from the fields of English-language theatre, sculpture and Tamil poetry, will receive the Cultural Medallion on Thursday.'>Theatre practitioner, sculptor and poet conferred this year's Cultural Medallion</a> by Lisabel Ting (2014-10-15T12:01:38)</p>
+        <p><a href = 'http://www.straitstimes.com/premium/top-the-news/story/its-beginning-look-lot-christmas-20141114' title = 'SINGAPORE'S iconic shopping belt will burst into colour this holiday season, with multi-hued Christmas trees and glittering blue snowflakes lining Orchard Road at the annual light-up.'>It's beginning to look a lot like Christmas</a> by Melissa Lin (2014-11-14T00:49:24)</p>
+        <p><a href = 'http://www.straitstimes.com/premium/top-the-news/story/pm-lee-confident-tpp-can-be-done-early-2015-20141110' title = 'PRIME Minister Lee Hsien Loong has expressed confidence that the US-led Trans-Pacific Partnership (TPP) trade deal can be completed by early next year, as media reports said it is set to miss its year- end deadline.'>PM Lee confident TPP can be done by early 2015</a> by Rachel Chang In Beijing (2014-11-10T01:22:41)</p>
     </div>
 </div>
 
 <!--
 
-<a class="twitter-timeline" 
-	href="https://twitter.com/YamKeng" 
-	data-widget-id="533573553442926594" 
-	width="292" height="470">Tweets by @YamKeng</a> 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-like-box" data-href="https://www.facebook.com/BaeyYamKeng" data-width="292" data-height="470" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+<div class="fb-like-box" data-href="https://www.facebook.com/BaeyYamKeng" data-width="292" data-height="470" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="false"></div>
 -->
 
 </body>
