@@ -1,12 +1,14 @@
 #! /usr/bin/env bash
 #
 
+# Parse address string into building and street
 BUILDING=`echo $@ | sed 's/Blk //; s/Block //;' | cut -d' ' -f1`
 STREETNAME=`shift && echo $@ | sed "s/${BUILDING} //;" | tr ' ' '+'`
 POSTCODE="http://www.singpost.com.sg/postcode-finder"
 
-# echo $BUILDING and then $STREETNAME
-
+# Call the website and cut out the results. We
+# only need six characters, then a newline at 
+# the end.
 curl -s --data "base_url_=http://www.singpost.com.sg/&BuildingNo=$BUILDING&StreetName=$STREETNAME&option=com_sp_service&controller=postalcode&task=postalcode&Itemid=377" $POSTCODE \
  | grep '<b><span class="link">' \
  | sed 's/$/\n/' \

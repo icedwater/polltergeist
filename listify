@@ -1,0 +1,23 @@
+#! /usr/bin/env bash
+
+# This takes boundary update PDFs converted to text and
+# builds a JSON list of boundary objects for each zone.
+# It will take more effort to parse the language...
+
+# Usage: listify input_file output_file
+
+FILE=$1
+OUTFILE=$1.json
+
+echo [ > $OUTFILE
+
+# Zones are represented as XX## and a paragraph of
+# text describing their boundaries. Here the zone
+# names are used as keys.
+
+sed '/^[A-Z0-9]\{4\}$/s/^/{/; /^{/s/$/:/; s/^$/}/' $FILE |\
+    tr -d '\n' |\
+    sed 's/:}/:"/g; s/}/"},\n/g;' |\
+    grep ^{ >> $OUTFILE
+
+echo ] >> $OUTFILE
