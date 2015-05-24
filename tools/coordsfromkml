@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+#
+
+FILE=$1
+
+grep -i coord $FILE \
+  | sed 's/^[[:space:]]*//;s#<coordinates>#\[\(#;s#</coordinates>#\)\]#;s/ /),(/g' \
+  | sort -t\) -k1n \
+  | uniq
