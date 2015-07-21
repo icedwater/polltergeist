@@ -7,7 +7,12 @@
 # Usage: listify input_file output_file
 
 FILE=$1
-OUTFILE=$1.json
+OUTFILE=$2
+
+if [ -z $OUTFILE ]
+    then
+        OUTFILE=$1.json
+fi
 
 echo [ > $OUTFILE
 
