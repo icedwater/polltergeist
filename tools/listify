@@ -21,9 +21,11 @@ echo [ > $OUTFILE
 # names are used as keys.
 
 sed '/^[A-Z0-9]\{4\}$/s/^/{/; /^{/s/$/:/; s/^$/}/' $FILE |\
-    tr -d '\n' |\
-    sed 's/:}/:"/g; s/}/"},\n/g;' |\
-    sed 's/{/{"/; s/:/":/' |\
+    tr '\n' ' ' |\
+    sed 's/:}/:"/g; s/}/"},/g;' |\
+    sed 's/ {/{"/g; s/:/":/' |\
+    sed '/:/s/"}, $//; s/: "}, /":"/g; s/},/},\n/g' |\
+    sed 's/. "}/."}/' |\
     grep ^{ >> $OUTFILE
 
 echo ] >> $OUTFILE
