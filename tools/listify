@@ -28,4 +28,6 @@ sed '/^[A-Z0-9]\{4\}$/s/^/{/; /^{/s/$/:/; s/^$/}/' $FILE |\
     sed 's/. "}/."}/' |\
     grep ^{ >> $OUTFILE
 
+sed -i '$s/},/}/' $OUTFILE
+
 echo ] >> $OUTFILE
