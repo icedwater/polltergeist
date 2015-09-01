@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Singapore General Election 2015 Rally Sites</name>
+		<description><![CDATA[Based on the Police press release [1] as shown in the Channel NewsAsia article[2].<br>[1] http://www.police.gov.sg/mic/2015/09/20150901_others_sites_speakers_corner.html<br>[2] http://www.channelnewsasia.com/news/specialreports/sgvotes2015/latest/ge2015-election-rally/2090852.html]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>Bukit Batok SMC
+</name>
+				<description><![CDATA[Field in front of Blk 265 Toh Guan Road]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7455461,1.3401485,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bukit Panjang SMC
+</name>
+				<description><![CDATA[Field in front of Blk 136 Petir Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.76833460000002,1.3745342,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fengshan SMC
+</name>
+				<description><![CDATA[Field along Bedok North Ave 4, beside SBS Transit Bedok North Bus Park (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9400733,1.3333613,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hong Kah North SMC
+</name>
+				<description><![CDATA[Field of former Hong Kah Primary School, 1 Bukit Batok West Ave 2]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.74373300000002,1.363018,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hougang SMC
+</name>
+				<description><![CDATA[Field in front of Blk 837 Hougang Central]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8911432,1.369094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MacPherson SMC
+</name>
+				<description><![CDATA[Field bounded by PIE, Paya Lebar Road, and Circuit Road (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8898569,1.3233325,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mountbatten SMC</name>
+				<description><![CDATA[Sports field bounded by Stadium Drive and Stadium Boulevard (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8782537,1.3050018,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pioneer SMC
+</name>
+				<description><![CDATA[Jurong West Stadium, 20 Jurong West St 93]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.69411300000002,1.338574,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Potong Pasir SMC
+</name>
+				<description><![CDATA[Field opposite Blk 120 Potong Pasir Ave 1]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8639217,1.3350497,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Punggol East SMC
+</name>
+				<description><![CDATA[Field in front of Blk 128C Punggol Field Walk]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9120979,1.3922909,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Radin Mas SMC
+</name>
+				<description><![CDATA[Delta Hockey Pitch, 900 Tiong Bahru Road]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.82046300000002,1.2894660000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sengkang West SMC
+</name>
+				<description><![CDATA[Field opposite Blk 312 (MSCP) Anchorvale Ln (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8848973,1.3913545,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Yuhua SMC
+</name>
+				<description><![CDATA[Jurong East Stadium, 21 Jurong East St 31]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.72906899999998,1.347031,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Aljunied GRC (1)</name>
+				<description><![CDATA[Serangoon Stadium, 33 Yio Chu Kang Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.87499100000002,1.356068,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Aljunied GRC (2)
+</name>
+				<description><![CDATA[Field bounded by Defu Ave 1, Defu Lane 10, and Tampines Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8946298,1.3604533,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ang Mo Kio GRC (1)
+</name>
+				<description><![CDATA[Field in front of Blk 982 Buangkok Crescent]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8787453,1.3809403,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ang Mo Kio GRC (2)
+</name>
+				<description><![CDATA[Yio Chu Kang Stadium, 210 Ang Mo Kio Ave 9]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.84658200000001,1.383111,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bishan-Toa Payoh GRC (1)
+</name>
+				<description><![CDATA[Bishan Stadium, 7 Bishan St 14]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.85099000000002,1.35411,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bishan-Toa Payoh GRC (2)
+</name>
+				<description><![CDATA[Toa Payoh Stadium, 297 Lorong 6 Toa Payoh]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.85244999999999,1.33077,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chua Chu Kang GRC (1)</name>
+				<description><![CDATA[Field of Chua Chu Kang Secondary School, 3 Teck Whye Crescent (except 7am - 7pm on 2 Sep, 3 Sep)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7505687,1.3831827,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chua Chu Kang GRC (2)
+</name>
+				<description><![CDATA[Bukit Gombak Stadium, 800 Bukit Batok West Ave 5]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.75343399999997,1.358286,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>East Coast GRC (1)</name>
+				<description><![CDATA[Bedok Stadium, 1 Bedok North Street 2]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.93925300000001,1.326287,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>East Coast GRC (2)
+</name>
+				<description><![CDATA[Field in front of Blk 155 Simei Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9584011,1.3443345,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Holland-Bukit Timah GRC (1)
+</name>
+				<description><![CDATA[Field along Commonwealth Ave, beside Commonwealth MRT station]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7988258,1.3026019,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Holland-Bukit Timah GRC (2)
+</name>
+				<description><![CDATA[Field in front of Blk 204 Clementi Ave 6 (should it be 304 instead?)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7633188,1.3210788,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jalan Besar GRC (1)</name>
+				<description><![CDATA[Field in front of Blk 4 Boon Keng Road (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8603175,1.3154283,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jalan Besar GRC (2)
+</name>
+				<description><![CDATA[Field opposite Blk 16 Jln Tenteram]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8591128,1.3271317,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jurong GRC (1)
+</name>
+				<description><![CDATA[Jurong Stadium, 10 Fourth Chin Bee Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.71950400000003,1.332522,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jurong GRC (2)
+</name>
+				<description><![CDATA[Field along Boon Lay Way, beside Chinese Garden MRT Station]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7327277,1.3415398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marine Parade GRC (1)
+</name>
+				<description><![CDATA[Field opposite Blk 344 Ubi Ave 1]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8996924,1.3270684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marine Parade GRC (2)
+</name>
+				<description><![CDATA[Field in front of Blk 33 Eunos Crescent]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9004507,1.3203562000000002,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marsiling-Yew Tee GRC (1)
+</name>
+				<description><![CDATA[Choa Chu Kang Stadium, 1 Choa Chu Kang St 53]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.74853600000006,1.391216,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Marsiling-Yew Tee GRC (2)</name>
+				<description><![CDATA[Woodlands Stadium, 1 Woodlands St 12]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7798564,1.433525,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nee Soon GRC (1)
+</name>
+				<description><![CDATA[Yishun Stadium, 103 Yishun Ave 1]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.831861,1.412848,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nee Soon GRC (2)
+</name>
+				<description><![CDATA[Field in front of Blk 389 Yishun Ave 6]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8481539,1.4300214,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pasir Ris-Punggol GRC (1)
+</name>
+				<description><![CDATA[Field opposite Blk 274C Compassvale Bow, beside Buangkok MRT Station]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8923822,1.3823881,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pasir Ris-Punggol GRC (2)</name>
+				<description><![CDATA[Field at Pasir Ris Park, beside Car Park C (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9572263,1.3758761,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sembawang GRC (1)
+</name>
+				<description><![CDATA[Field opposite Blk 540 Woodlands Drive 16]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.7918483,1.428325,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sembawang GRC (2)</name>
+				<description><![CDATA[Field opposite Blk 687A Woodlands Drive 75 (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8077934,1.4406005,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tampines GRC (1)
+</name>
+				<description><![CDATA[Field in front of Blk 895A Tampines Street 81]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.9328732,1.3474255,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tampines GRC (2)</name>
+				<description><![CDATA[Field of Ngee Ann Secondary School, 1 Tampines St 32 (except 7am - 7pm on 2 Sep, 3 Sep)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.955908,1.3539887,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tanjong Pagar GRC (1)
+</name>
+				<description><![CDATA[Queenstown Stadium, 473A Stirling Rd]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.80242699999997,1.296047,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tanjong Pagar GRC (2)</name>
+				<description><![CDATA[Sports field in front of MOE (Evans Road), 21 Evans Rd (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.8193288,1.3185683,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>West Coast GRC (1)</name>
+				<description><![CDATA[Field at West Coast Park, beside Carpark 3 (not sure)]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.764061,1.2969078,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>West Coast GRC (2)
+</name>
+				<description><![CDATA[Clementi Stadium, 10 West Coast Walk]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.76252099999999,1.309787,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lunch Time Rally
+</name>
+				<description><![CDATA[(12 noon - 2pm) Promenade area beside UOB Plaza]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>103.85065380000002,1.2856948,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
